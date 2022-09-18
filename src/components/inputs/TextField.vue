@@ -13,8 +13,6 @@ export default {
   props: {
     // v-model
     modelValue: [String, Number],
-
-    // input type
     type: { type: String, default: "text" },
   },
 

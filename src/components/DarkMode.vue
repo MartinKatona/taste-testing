@@ -21,3 +21,9 @@ watch(darkMode, () => {
   }
 });
 </script>
+
+<style scoped>
+div {
+  z-index: 1;
+}
+</style>

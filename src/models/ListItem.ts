@@ -1,18 +1,5 @@
 import dayjs from "dayjs";
 
-export class ListData {
-  name = "";
-  item = new ListItem();
-
-  constructor(props?: Partial<ListData>) {
-    console.log("props", props);
-
-    this.name = props?.name ?? "-";
-    this.item = new ListItem(props?.item);
-    console.log("name", this.name, "item", this.item);
-  }
-}
-
 export default class ListItem {
   type = "";
   flavour = "";

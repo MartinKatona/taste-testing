@@ -5,14 +5,10 @@
   </button>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-
-export default defineComponent({
-  props: {
-    icon: { type: String, default: "plus" },
-    text: { type: String, default: "" },
-    btnClasses: { type: String, default: "" },
-  },
+<script lang="ts" setup>
+defineProps({
+  icon: { type: String, default: "plus" },
+  text: { type: String, default: "" },
+  btnClasses: { type: String, default: "" },
 });
 </script>
